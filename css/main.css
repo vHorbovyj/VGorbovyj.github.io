@@ -420,7 +420,7 @@ div[class$="project-block"]:active {
     -webkit-transition: .15s;
     transition: .15s;
 }
-div[class$="project-block"]:nth-child(5) {
+div[class$="project-block"]:nth-child(n+5) {
     margin: 0 auto;
     margin-top: -10rem;
 }
@@ -832,7 +832,7 @@ p[class$="container__text"] a abbr{
         -webkit-transition: .15s;
         transition: .15s;
     }
-    div[class$="project-block"]:nth-child(5) {
+    div[class$="project-block"]:nth-child(n+5) {
         margin: 1rem 0;
     }
     /** /БЛОК "РОБОТИ" **/
@@ -1035,7 +1035,7 @@ p[class$="container__text"] a abbr{
         -webkit-transition: .15s;
         transition: .15s;
     }
-    div[class$="project-block"]:nth-child(5) {
+    div[class$="project-block"]:nth-child(n+5) {
         margin: 1rem 0;
     }
     /** /БЛОК "РОБОТИ" **/
@@ -1242,7 +1242,7 @@ p[class$="container__text"] a abbr{
         -webkit-transition: .15s;
         transition: .15s;
     }
-    div[class$="project-block"]:nth-child(5) {
+    div[class$="project-block"]:nth-child(n+5) {
         margin: 1rem 0;
     }
     /** /БЛОК "РОБОТИ" **/
